@@ -1,6 +1,11 @@
 # Python: Design Patterns
 Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 
+## Design patterns
+- Well-known solutions to recurring problems (same problem occuring over and over again)
+- Widely accepted solutions by the software development community
+- No need to re-invent the wheel
+
 ## Creational Patterns
 1.	[ ] Factory
 2.	[ ] Abstract factory
