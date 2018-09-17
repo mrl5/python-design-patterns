@@ -10,12 +10,15 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 1.	[x] [Factory] - object specializing in creating other objects
     - when not sure what type of object will be needed
     - decisions to be made at runtime regarding what classes to use
-2.	[ ] Abstract factory
+2.	[x] [Abstract factory] - creates a factory of related objects without explicitly specifying their classes
+    - useful when delivering family of related objects
+    - don't need to know which family it is until runtime
 3.	[ ] Singleton
 4.	[ ] Builder
 5.	[ ] Prototype
 
 [Factory]: factory.py
+[Abstract factory]: abstract_factory.py
 
 ## Structural Patterns
 1.	[ ] Decorator
