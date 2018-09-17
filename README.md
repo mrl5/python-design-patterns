@@ -31,7 +31,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 [Prototype]: prototype.py
 
 ## Structural Patterns
-1.	[ ] Decorator
+1.	[x] [Decorator] - adds additional feature to the existing object dynamically without using subclassing
 2.	[ ] Proxy
 3.	[ ] Adapter
 4.	[ ] Composite
