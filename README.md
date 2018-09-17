@@ -32,7 +32,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 
 ## Structural Patterns
 1.	[x] [Decorator] - adds additional feature to the existing object dynamically without using subclassing
-2.	[x] Proxy - helps with creating an object which is resource intensive
+2.	[x] [Proxy] - helps with creating an object which is resource intensive
 3.	[ ] Adapter
 4.	[ ] Composite
 5.	[ ] Bridge
