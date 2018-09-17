@@ -13,12 +13,15 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 2.	[x] [Abstract factory] - creates a factory of related objects without explicitly specifying their classes
     - useful when delivering family of related objects
     - don't need to know which family it is until runtime
-3.	[ ] Singleton
+3.	[x] [Singleton] - provides global variable object
+    - allows for only one instance of a class
+    - keeping an information cache: no need to retrieve information from original source every time when it's needed
 4.	[ ] Builder
 5.	[ ] Prototype
 
 [Factory]: factory.py
 [Abstract factory]: abstract_factory.py
+[Singleton]: singleton.py
 
 ## Structural Patterns
 1.	[ ] Decorator
