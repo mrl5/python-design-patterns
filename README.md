@@ -7,11 +7,15 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 - No need to re-invent the wheel
 
 ## Creational Patterns
-1.	[ ] Factory
+1.	[x] [Factory] - object specializing in creating other objects
+    - when not sure what type of object will be needed
+    - decisions to be made at runtime regarding what classes to use
 2.	[ ] Abstract factory
 3.	[ ] Singleton
 4.	[ ] Builder
 5.	[ ] Prototype
+
+[Factory]: factory.py
 
 ## Structural Patterns
 1.	[ ] Decorator
