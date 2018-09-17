@@ -22,7 +22,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 5.	[x] [Prototype] - clones object according to a prototypical instance
     - problem: creating many identical objects individually could be "expensive"
     - alternative: cloning instead of creation
-    - create prototype one, clone it every time when needed
+    - create prototype once, clone it every time when needed
 
 [Factory]: factory.py
 [Abstract factory]: abstract_factory.py
