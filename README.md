@@ -17,14 +17,18 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
     - allows for only one instance of a class
     - keeping an information cache: no need to retrieve information from original source every time when it's needed
 4.	[x] [Builder] - solution for building complex object
-    - doesn't rely on polymorphism (unlike factory and abstract factory)
+    - doesn't rely on polymorphism (**unlike factory and abstract factory**)
     - example: before building a car, car parts (e.g. tyres, engine, etc.) need to be build and assembled
-5.	[ ] Prototype
+5.	[x] [Prototype] - clones object according to a prototypical instance
+    - problem: creating many identical objects individually could be "expensive"
+    - alternative: cloning instead of creation
+    - create prototype one, clone it every time when needed
 
 [Factory]: factory.py
 [Abstract factory]: abstract_factory.py
 [Singleton]: singleton.py
 [Builder]: builder.py
+[Prototype]: prototype.py
 
 ## Structural Patterns
 1.	[ ] Decorator
