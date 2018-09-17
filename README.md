@@ -34,7 +34,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 1.	[x] [Decorator] - adds additional feature to the existing object dynamically without using subclassing
 2.	[x] [Proxy] - helps with creating an object which is resource intensive
 3.	[x] [Adapter] - converts the interface of the class into another one
-    - e.g. translates method names
+    - e.g. unifies method names
 4.	[ ] Composite
 5.	[ ] Bridge
 
