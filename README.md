@@ -16,8 +16,9 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 3.	[x] [Singleton] - provides global variable object
     - allows for only one instance of a class
     - keeping an information cache: no need to retrieve information from original source every time when it's needed
-4.	[x] [Builder] - solution for building complex object. Example: before building a car, car parts (e.g. tyres, engine, etc.) need to be build and assembled
+4.	[x] [Builder] - solution for building complex object
     - doesn't rely on polymorphism (unlike factory and abstract factory)
+    - example: before building a car, car parts (e.g. tyres, engine, etc.) need to be build and assembled
 5.	[ ] Prototype
 
 [Factory]: factory.py
