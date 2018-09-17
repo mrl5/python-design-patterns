@@ -7,11 +7,28 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 - No need to re-invent the wheel
 
 ## Creational Patterns
-1.	[ ] Factory
-2.	[ ] Abstract factory
-3.	[ ] Singleton
-4.	[ ] Builder
-5.	[ ] Prototype
+1.	[x] [Factory] - object specializing in creating other objects
+    - when not sure what type of object will be needed
+    - decisions to be made at runtime regarding what classes to use
+2.	[x] [Abstract factory] - creates a factory of related objects without explicitly specifying their classes
+    - useful when delivering family of related objects
+    - don't need to know which family it is until runtime
+3.	[x] [Singleton] - provides global variable object
+    - allows for only one instance of a class
+    - keeping an information cache: no need to retrieve information from original source every time when it's needed
+4.	[x] [Builder] - solution for building complex object
+    - doesn't rely on polymorphism (**unlike factory and abstract factory**)
+    - example: before building a car, car parts (e.g. tyres, engine, etc.) need to be build and assembled
+5.	[x] [Prototype] - clones object according to a prototypical instance
+    - problem: creating many identical objects individually could be "expensive"
+    - alternative: cloning instead of creation
+    - create prototype one, clone it every time when needed
+
+[Factory]: factory.py
+[Abstract factory]: abstract_factory.py
+[Singleton]: singleton.py
+[Builder]: builder.py
+[Prototype]: prototype.py
 
 ## Structural Patterns
 1.	[ ] Decorator
