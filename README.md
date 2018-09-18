@@ -13,6 +13,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 2.	[x] [Abstract factory] - creates a factory of related objects without explicitly specifying their classes
     - useful when delivering family of related objects
     - don't need to know which family it is until runtime
+    - relations: factory and singleton (concrete factory are often made as it)
 3.	[x] [Singleton] - provides global variable object
     - allows for only one instance of a class
     - keeping an information cache: no need to retrieve information from original source every time when it's needed
@@ -23,6 +24,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
     - problem: creating many identical objects individually could be "expensive"
     - alternative: cloning instead of creation
     - solution: create prototype once, clone it every time when needed
+    - relations: abstract factory
 
 [Factory]: factory.py
 [Abstract factory]: abstract_factory.py
@@ -32,19 +34,18 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 
 ## Structural Patterns
 1.	[x] [Decorator] - adds additional feature to the existing object dynamically without using subclassing
+    - relations: adapter, composite, strategy
 2.	[x] [Proxy] - helps with creating an object which is resource intensive
+    - relations: adapter, decorator
 3.	[x] [Adapter] - converts the interface of the class into another one
     - e.g. unifies method names
+    - relations: bridge, decorator
 4.	[x] [Composite] - composes objects into tree structures to represent part-whole hierarchies
     - e.g. menu(submenu1, submenu2) - submenu1(sub11_submenu1, sub12_submenu1) - ...
+    - relations: decorator, iterator, visitor
 5.	[x] [Bridge] - decouples an abstraction from its implementation so that the two can vary independently
     - publish interface in an inheritance hierarchy, and bury implementation in its own inheritance hierarchy
-
-[Decorator]: decorator.py
-[Proxy]: proxy.py
-[Adapter]: adapter.py
-[Composite]: composite.py
-[Bridge]: bridge.py
+    - relations: abstract factory, adapter
 
 ## Behavioral Patterns
 1.	[ ] Observer
@@ -54,11 +55,10 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 5.	[ ] Chain of responsibility
 
 # See also
--
 - [The Little Book of Python Anti-Patterns] by [@QuantifiedCode]
 - [The Hitchhiker's Guide to Python] by [@realpython]
 - [Dive Into Python 3] by [Mark Pilgrim]
-- [python-patterns] - a collection of design patterns and idioms in Python by [@faif]
+- [python-patterns] (a collection of design patterns and idioms in Python) by [@faif]
 - A [detailed description of design patterns] by [SourceMaking](https://sourcemaking.com/)
 
 [Python: Design Patterns]: https://www.linkedin.com/learning/python-design-patterns
