@@ -54,9 +54,11 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 5.	[ ] Chain of responsibility
 
 # See also
+-
 - [The Little Book of Python Anti-Patterns] by [@QuantifiedCode]
 - [The Hitchhiker's Guide to Python] by [@realpython]
 - [Dive Into Python 3] by [Mark Pilgrim]
+- [python-patterns] - a collection of design patterns and idioms in Python by [@faif]
 - A [detailed description of design patterns] by [SourceMaking](https://sourcemaking.com/)
 
 [Python: Design Patterns]: https://www.linkedin.com/learning/python-design-patterns
@@ -72,3 +74,6 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 [Mark Pilgrim]: https://github.com/diveintomark
 
 [detailed description of design patterns]: https://sourcemaking.com/design_patterns/
+
+[python-patterns]: https://github.com/faif/python-patterns
+[@faif]: https://github.com/faif
