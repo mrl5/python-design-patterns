@@ -1,5 +1,6 @@
 # Python: Design Patterns
-Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
+* [ ] Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
+* [ ] Examples from [Python: Advanced Design Patterns] by [Jungwoo Ryoo]
 
 ## Design Patterns
 - Well-known solutions to recurring problems (same problem occurring over and over again)
@@ -68,6 +69,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 - A [detailed description of design patterns] by [SourceMaking](https://sourcemaking.com/)
 
 [Python: Design Patterns]: https://www.linkedin.com/learning/python-design-patterns
+[Python: Advanced Design Patterns]: https://www.linkedin.com/learning/python-advanced-design-patterns
 [Jungwoo Ryoo]: https://www.linkedin.com/learning/instructors/jungwoo-ryoo
 
 [The Little Book of Python Anti-Patterns]: https://docs.quantifiedcode.com/python-anti-patterns/index.html
