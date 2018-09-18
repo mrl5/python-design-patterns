@@ -1,8 +1,8 @@
 # Python: Design Patterns
 Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 
-## Design patterns
-- Well-known solutions to recurring problems (same problem occuring over and over again)
+## Design Patterns
+- Well-known solutions to recurring problems (same problem occurring over and over again)
 - Widely accepted solutions by the software development community
 - No need to re-invent the wheel
 
@@ -35,7 +35,8 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 2.	[x] [Proxy] - helps with creating an object which is resource intensive
 3.	[x] [Adapter] - converts the interface of the class into another one
     - e.g. unifies method names
-4.	[ ] Composite
+4.	[x] [Composite] - compose objects into tree structures to represent part-whole hierarchies
+    - e.g. menu(submenu1, submenu2) - submenu1(sub11_submenu1, sub12_submenu1) - ...
 5.	[ ] Bridge
 
 [Decorator]: decorator.py
