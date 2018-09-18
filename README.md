@@ -57,6 +57,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 - [The Little Book of Python Anti-Patterns] by [@QuantifiedCode]
 - [The Hitchhiker's Guide to Python] by [@realpython]
 - [Dive Into Python 3] by [Mark Pilgrim]
+- A [detailed description of design patterns] by [SourceMaking](https://sourcemaking.com/)
 
 [Python: Design Patterns]: https://www.linkedin.com/learning/python-design-patterns
 [Jungwoo Ryoo]: https://www.linkedin.com/learning/instructors/jungwoo-ryoo
@@ -69,3 +70,5 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 
 [Dive Into Python 3]: http://www.diveintopython3.net/
 [Mark Pilgrim]: https://github.com/diveintomark
+
+[detailed description of design patterns]: https://sourcemaking.com/design_patterns/
