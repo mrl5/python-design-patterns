@@ -37,7 +37,8 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
     - e.g. unifies method names
 4.	[x] [Composite] - compose objects into tree structures to represent part-whole hierarchies
     - e.g. menu(submenu1, submenu2) - submenu1(sub11_submenu1, sub12_submenu1) - ...
-5.	[ ] Bridge
+5.	[x] [Bridge] - decouples an abstraction from its implementation so that the two can vary independently
+    - publish interface in an inheritance hierarchy, and bury implementation in its own inheritance hierarchy
 
 [Decorator]: decorator.py
 [Proxy]: proxy.py
