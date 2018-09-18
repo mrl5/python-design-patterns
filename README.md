@@ -55,11 +55,17 @@
 [Bridge]: bridge.py
 
 ## Behavioral Patterns
-1.	[ ] Observer
-2.	[ ] Visitor
-3.	[ ] Iterator
-4.	[ ] Strategy
-5.	[ ] Chain of responsibility
+1.	[ ] [Observer]
+2.	[ ] [Visitor]
+3.	[ ] [Iterator]
+4.	[ ] [Strategy]
+5.	[ ] [Chain of responsibility]
+
+[Observer]: observer.py
+[Visitor]: visitor.py
+[Iterator]: iterator.py
+[Strategy]: strategy.py
+[Chain of responsibility]: chain_of_responsibility.py
 
 # See also
 - [The Little Book of Python Anti-Patterns] by [@QuantifiedCode]
