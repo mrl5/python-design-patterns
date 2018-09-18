@@ -47,6 +47,12 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
     - publish interface in an inheritance hierarchy, and bury implementation in its own inheritance hierarchy
     - relations: abstract factory, adapter
 
+[Decorator]: decorator.py
+[Proxy]: proxy.py
+[Adapter]: adapter.py
+[Composite]: composite.py
+[Bridge]: bridge.py
+
 ## Behavioral Patterns
 1.	[ ] Observer
 2.	[ ] Visitor
