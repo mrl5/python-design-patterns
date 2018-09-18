@@ -22,7 +22,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 5.	[x] [Prototype] - clones object according to a prototypical instance
     - problem: creating many identical objects individually could be "expensive"
     - alternative: cloning instead of creation
-    - create prototype once, clone it every time when needed
+    - solution: create prototype once, clone it every time when needed
 
 [Factory]: factory.py
 [Abstract factory]: abstract_factory.py
@@ -35,7 +35,7 @@ Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 2.	[x] [Proxy] - helps with creating an object which is resource intensive
 3.	[x] [Adapter] - converts the interface of the class into another one
     - e.g. unifies method names
-4.	[x] [Composite] - compose objects into tree structures to represent part-whole hierarchies
+4.	[x] [Composite] - composes objects into tree structures to represent part-whole hierarchies
     - e.g. menu(submenu1, submenu2) - submenu1(sub11_submenu1, sub12_submenu1) - ...
 5.	[x] [Bridge] - decouples an abstraction from its implementation so that the two can vary independently
     - publish interface in an inheritance hierarchy, and bury implementation in its own inheritance hierarchy
