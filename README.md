@@ -55,11 +55,13 @@
 [Bridge]: bridge.py
 
 ## Behavioral Patterns
-1.	[ ] [Observer]
-2.	[ ] [Visitor]
-3.	[ ] [Iterator]
-4.	[ ] [Strategy]
-5.	[ ] [Chain of responsibility]
+1.	[x] [Observer] - establishes an one-to-many relation between a subject and multiple observers
+    - problem: subject needs to be monitored, and observers need to be notified on subject's change
+    - relations: singleton
+2.	[ ] Visitor]
+3.	[ ] Iterator
+4.	[ ] Strategy
+5.	[ ] Chain of responsibility
 
 [Observer]: observer.py
 [Visitor]: visitor.py
