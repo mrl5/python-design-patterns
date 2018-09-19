@@ -46,6 +46,7 @@
     - relations: decorator, iterator, visitor
 5.	[x] [Bridge] - decouples an abstraction from its implementation so that the two can vary independently
     - publish interface in an inheritance hierarchy, and bury implementation in its own inheritance hierarchy
+    - you can split the hierarchy of interface and class
     - relations: abstract factory, adapter
 
 [Decorator]: decorator.py
@@ -55,11 +56,23 @@
 [Bridge]: bridge.py
 
 ## Behavioral Patterns
-1.	[ ] Observer
-2.	[ ] Visitor
-3.	[ ] Iterator
-4.	[ ] Strategy
-5.	[ ] Chain of responsibility
+1.	[x] [Observer] - establishes an one-to-many relation between a subject and multiple observers
+    - problem: subject needs to be monitored, and observers need to be notified on subject's change
+    - relations: singleton
+2.	[x] [Visitor] - allows adding new features to the existing class hierarchy without changing it
+    - can provide operations on a composite objects
+3.	[x] [Iterator] - sequentially accesses the elements of a collection
+    - relations: composite
+4.	[x] [Strategy] - encapsulates an algorithm inside a class
+    - in other words: pass a method as an argument
+5.	[x] [Chain of Responsibility] - a way of passing a request between a chain of objects
+    - relations: composite
+
+[Observer]: observer.py
+[Visitor]: visitor.py
+[Iterator]: iterator.py
+[Strategy]: strategy.py
+[Chain of Responsibility]: chain_of_responsibility.py
 
 # See also
 - [The Little Book of Python Anti-Patterns] by [@QuantifiedCode]
@@ -67,6 +80,7 @@
 - [Dive Into Python 3] by [Mark Pilgrim]
 - [python-patterns] (a collection of design patterns and idioms in Python) by [@faif]
 - A [detailed description of design patterns] by [SourceMaking](https://sourcemaking.com/)
+- [What is the difference between the Bridge pattern and the Strategy pattern?] ([Stack Overflow](https://stackoverflow.com/))
 
 [Python: Design Patterns]: https://www.linkedin.com/learning/python-design-patterns
 [Python: Advanced Design Patterns]: https://www.linkedin.com/learning/python-advanced-design-patterns
@@ -85,3 +99,5 @@
 
 [python-patterns]: https://github.com/faif/python-patterns
 [@faif]: https://github.com/faif
+
+[What is the difference between the Bridge pattern and the Strategy pattern?]: https://stackoverflow.com/questions/464524/what-is-the-difference-between-the-bridge-pattern-and-the-strategy-pattern
