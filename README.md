@@ -58,7 +58,8 @@
 1.	[x] [Observer] - establishes an one-to-many relation between a subject and multiple observers
     - problem: subject needs to be monitored, and observers need to be notified on subject's change
     - relations: singleton
-2.	[ ] Visitor]
+2.	[x] [Visitor] - allows adding new features to the existing class hierarchy without changing it
+    - can provide operations on a composite objects
 3.	[ ] Iterator
 4.	[ ] Strategy
 5.	[ ] Chain of responsibility
