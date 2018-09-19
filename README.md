@@ -1,5 +1,5 @@
 # Python: Design Patterns
-* [ ] Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
+* [x] Examples from [Python: Design Patterns] by [Jungwoo Ryoo]
 * [ ] Examples from [Python: Advanced Design Patterns] by [Jungwoo Ryoo]
 
 ## Design Patterns
