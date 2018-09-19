@@ -60,7 +60,8 @@
     - relations: singleton
 2.	[x] [Visitor] - allows adding new features to the existing class hierarchy without changing it
     - can provide operations on a composite objects
-3.	[ ] Iterator
+3.	[x] [Iterator] - sequentially accesses the elements of a collection
+    - relations: composite
 4.	[ ] Strategy
 5.	[ ] Chain of responsibility
 
