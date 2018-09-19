@@ -25,3 +25,11 @@ for num in count_to(3):
 
 for num in count_to(4):
     print("{}".format(num))
+
+# Now manually
+num = count_to(5)
+print("Now manually")
+# step 1
+print(next(num))
+# step 2
+print(next(num))
