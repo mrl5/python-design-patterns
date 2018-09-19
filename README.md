@@ -65,7 +65,8 @@
     - relations: composite
 4.	[x] [Strategy] - encapsulates an algorithm inside a class
     - in other words: pass a method as an argument
-5.	[ ] Chain of Responsibility
+5.	[x] [Chain of Responsibility] - a way of passing a request between a chain of objects
+    - relations: composite
 
 [Observer]: observer.py
 [Visitor]: visitor.py
