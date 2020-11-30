@@ -79,8 +79,11 @@
 - [The Hitchhiker's Guide to Python] by [@realpython]
 - [Dive Into Python 3] by [Mark Pilgrim]
 - [python-patterns] (a collection of design patterns and idioms in Python) by [@faif]
+- [Python Design Patterns: For Sleek And Fashionable Code] by [Andrei Boyanov]
 - A [detailed description of design patterns] by [SourceMaking](https://sourcemaking.com/)
 - [What is the difference between the Bridge pattern and the Strategy pattern?] ([Stack Overflow](https://stackoverflow.com/))
+- [formal interfaces in Python] by [William Murphy]
+- [abstract base classes in Python] by [Isaac Rodriguez]
 
 [Python: Design Patterns]: https://www.linkedin.com/learning/python-design-patterns
 [Python: Advanced Design Patterns]: https://www.linkedin.com/learning/python-advanced-design-patterns
@@ -101,3 +104,12 @@
 [@faif]: https://github.com/faif
 
 [What is the difference between the Bridge pattern and the Strategy pattern?]: https://stackoverflow.com/questions/464524/what-is-the-difference-between-the-bridge-pattern-and-the-strategy-pattern
+
+[Python Design Patterns: For Sleek And Fashionable Code]: https://www.toptal.com/python/python-design-patterns
+[Andrei Boyanov]: https://www.toptal.com/resume/andrei-boyanov
+
+[formal interfaces in Python]: https://realpython.com/python-interface/#formal-interfaces
+[William Murphy]: https://realpython.com/python-interface/#author
+
+[abstract base classes in Python]: https://realpython.com/inheritance-composition-python/#abstract-base-classes-in-python
+[Isaac Rodriguez]: https://realpython.com/inheritance-composition-python/#author
